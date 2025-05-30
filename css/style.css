@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    position: relative;
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
@@ -18,6 +18,8 @@ header{
     color: white;
     padding: 10px 0;
     text-align: center;
+    width: 100%;
+    z-index: 4;
 }
 header ul{
     position: absolute;
@@ -44,4 +46,19 @@ header nav a:hover{
 .redes{
     width: 35px;
     height: 35px;
+}
+main{
+    height: 110vh;
+    display: flex;
+}
+
+.modal{
+    position: fixed;
+    left: 30%;
+    top: 200px;
+    width: 60%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    z-index: 5;
 }
