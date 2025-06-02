@@ -10,55 +10,36 @@ body{
 }
 
 header{
-    position: fixed;
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    width: 100%;
-    z-index: 4;
+    justify-content: space-between;
+    align-content: space-around;
+    padding: 20px;
+    background-color: rgba(9, 116, 238, 0.603);
 }
-header ul{
-    position: absolute;
-    top: 0;
-    right: 15%;
+
+ul{
+    display: flex;
     list-style: none;
-    display: flex;
 }
-header nav a{
+
+nav{
+    display: flex;
+    align-items: center;
+    gap:20%;
+    margin-top: 50px;
+}
+
+a{
     text-decoration: none;
-    color: white;
-    padding: 10px 15px;
-    transition: background-color 0.3s;
+    color: #fff;
     font-size: 1.5rem;
 }
-header nav a:hover{
-    background-color: #d5241b;
-}
+
 .logo{
-    width: 50px;
-    height: 100px;
+    width: 80px;
 }
 
 .redes{
-    width: 35px;
-    height: 35px;
-}
-main{
-    height: 110vh;
-    display: flex;
-}
-
-.modal{
-    position: fixed;
-    left: 30%;
-    top: 200px;
-    width: 60%;
-    background-color: black;
-    color: white;
-    padding: 20px;
-    z-index: 5;
+    width: 1.5rem;
+    margin-right: 10px;
 }
