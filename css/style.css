@@ -7,14 +7,17 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f0f0;
     color: #333;
+    line-height: 1.5;
 }
 
 header{
+    position: fixed;
+    width: 100%;
+    top: 0;
     display: flex;
-    justify-content: space-between;
-    align-content: space-around;
+    justify-content: space-evenly;
     padding: 20px;
-    background-color: rgba(9, 116, 238, 0.603);
+    background-color: #0974ee9a;
 }
 
 ul{
@@ -24,8 +27,8 @@ ul{
 
 nav{
     display: flex;
-    align-items: center;
-    gap:20%;
+    justify-content: flex-start;
+    gap: 10%;
     margin-top: 50px;
 }
 
@@ -33,6 +36,15 @@ a{
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
+}
+
+a:hover{
+    color: #2f11d6;
+}
+
+main{
+    max-width: 1200px;
+    margin: 140px 20%;
 }
 
 .logo{
