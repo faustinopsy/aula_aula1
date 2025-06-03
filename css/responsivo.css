@@ -24,17 +24,20 @@
 
 @media (max-width: 768px) {
   .navbar-desktop {
-    display: none;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
     flex-direction: column;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     transform: translateY(-100%);
   }
 
   .hamburger-icon {
     display: block;
     position: absolute;
-    left: 0;
+    right: 0;
     margin: 10px;
+    z-index: 10;
   }
 
   .menu-toggle:checked ~ .navbar-desktop {
@@ -45,9 +48,13 @@
     position: absolute;
     top: 60px;
     left: 0;
-    background-color: #64a5ef;
+    background-color: #64a5ef4f;
+    backdrop-filter: blur(10px);
     transition: all 0.3s ease;
+    opacity: 1;
     transform: translateY(0); 
+    height: 100vh;
+    overflow: hidden;
   }
 
   .menu-toggle:checked ~ .hamburger-icon .item-hambuger-top {
