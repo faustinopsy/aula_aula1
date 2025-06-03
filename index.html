@@ -5,21 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
 </head>
 <body>
     <header>
         <img src="img/logo.svg" alt="Logo da página" class="logo">
+
+        
         <nav class="navbar-desktop">
             <a href="#">Home</a>
             <a href="#">Sobre</a>
             <a href="#">Contato</a>
             <a href="#">Serviços</a>
         </nav>
-        <div class="menu-hambuger">
-            <span class="item-hambuger"></span>
-            <span class="item-hambuger"></span>
-            <span class="item-hambuger"></span>
-        </div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span class="linha-menu-top"></span>
+            <span class="linha-menu-center"></span>
+            <span class="linha-menu-bottom"></span>
+        </label>
+        
         <ul>
             <li>
                 <a href="#">

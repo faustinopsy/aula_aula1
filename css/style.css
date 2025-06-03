@@ -25,28 +25,6 @@ ul{
     list-style: none;
 }
 
-.navbar-desktop{
-    display: flex;
-    justify-content: flex-start;
-    gap: 10%;
-    margin-top: 50px;
-}
-
-.menu-hambuger{
-    display: none;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    flex-direction: column;
-    margin-left: 0;
-}
-
-.item-hambuger{
-    background-color: #ffffff;
-    height: 5px;
-    width: 50px;
-    margin-top: 10px;
-}
 
 a{
     text-decoration: none;
@@ -72,11 +50,3 @@ main{
     margin-right: 10px;
 }
 
-@media (max-width: 724px) {
-    .menu-hambuger{
-        display: flex;
-    }
-    .navbar-desktop{
-        display: none;
-    }
-}
