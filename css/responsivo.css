@@ -12,10 +12,23 @@
 }
 
 .linha-menu-center{
-    background-color: #ffffff;
+    background-color: #385bce;
     height: 5px;
     width: 60px;
     margin-top: 10px;
+    margin-left: -10px;
+}
+
+
+.linha-menu-center::before{
+    border-color: transparent #2f4bff #2f4bff transparent;
+    border-style: solid;
+    border-width: 5px;
+    content: '';
+    left: -10px;
+    position: absolute;
+    top: 22px;
+    transform: rotate(139deg);
 }
 
 .menu-toggle {
