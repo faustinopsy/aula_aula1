@@ -1,17 +1,17 @@
 
-.hamburger-icon {
+.menu-icon {
   display: none;
   cursor: pointer;
 }
 
-.item-hambuger-top, .item-hambuger-bottom{
+.linha-menu-top, .linha-menu-bottom{
     background-color: #ffffff;
     height: 5px;
     width: 50px;
     margin-top: 10px;
 }
 
-.item-hambuger-center{
+.linha-menu-center{
     background-color: #ffffff;
     height: 5px;
     width: 60px;
@@ -32,7 +32,7 @@
     transform: translateY(-100%);
   }
 
-  .hamburger-icon {
+  .menu-icon {
     display: block;
     position: absolute;
     right: 0;
@@ -57,15 +57,15 @@
     overflow: hidden;
   }
 
-  .menu-toggle:checked ~ .hamburger-icon .item-hambuger-top {
+  .menu-toggle:checked ~ .menu-icon .linha-menu-top {
      transform: translateY(9px) rotate(45deg);
   }
 
-  .menu-toggle:checked ~ .hamburger-icon .item-hambuger-bottom {
+  .menu-toggle:checked ~ .menu-icon .linha-menu-bottom {
     transform: translateY(-9px) rotate(-45deg);
   }
 
-  .menu-toggle:checked ~ .hamburger-icon .item-hambuger-center {
+  .menu-toggle:checked ~ .menu-icon .linha-menu-center {
     display: none;
   }
 
