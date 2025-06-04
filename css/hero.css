@@ -1,10 +1,32 @@
 .hero {
+    position: relative;
     text-align: center;
     padding: 8rem 1rem;
-    background-color: #108e97;
+    background: linear-gradient(transparent, #10977a4b, transparent);
+    border-left:#fff solid 1px;
+    border-bottom:#fff solid 3px;
+    border-right: transparent;
     border-radius: 8px;
     margin-bottom: 2rem;
-}
+    overflow: visible;
+  }
+  
+  .hero-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(-20%);
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    top: 5rem;
+    left: -7rem;
+    z-index: 2;
+  }
 
 .hero__titulo {
     font-size: 2.5rem;

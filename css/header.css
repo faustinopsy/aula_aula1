@@ -6,6 +6,7 @@ header{
     justify-content: space-evenly;
     padding: 20px;
     background-color: #1f859e;
+    z-index: 50;
 }
 
 ul{
