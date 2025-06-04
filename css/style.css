@@ -63,9 +63,9 @@ main{
 
 .botao-flutuante{
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #a0c5f0;
+    bottom: 60px;
+    right: 30px;
+    background-color: #10c41fb6;
     border: none;
     border-radius: 50%;
     width: 60px;
