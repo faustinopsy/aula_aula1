@@ -18,30 +18,71 @@ main {
   }
 
 
-.cards {
-    padding: 2rem 0;
+.main-footer {
+    background-color: #1f859e;
+    color: #ffffff;
+    padding-top: 3rem;
+    margin-top: 3rem;
 }
 
-.cards__grid {
+.footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-colunas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem; 
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 2rem;
 }
 
-.card-item {
-    flex-grow: 1; 
-    flex-shrink: 1;
-    flex-basis: 280px;
-    background-color: #108e97;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1.5rem;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+.footer-coluna {
+    flex: 1;
+    min-width: 220px;
 }
 
-.card-item__title {
-    margin-bottom: 0.5rem;
+.footer-coluna h4 {
     color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.footer-coluna h4::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #1f859e;
+}
+
+.footer-coluna ul {
+    list-style: none;
+}
+
+.footer-coluna ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-coluna a {
+    color: #a9a9a9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-coluna a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 1px solid #444;
+    font-size: 0.9rem;
 }
