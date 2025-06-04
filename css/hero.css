@@ -1,0 +1,18 @@
+.hero {
+    text-align: center;
+    padding: 8rem 1rem;
+    background-color: #108e97;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.hero__titulo {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+  
+.hero__subtitulo {
+    font-size: 1.2rem;
+    color: #fff;
+}
