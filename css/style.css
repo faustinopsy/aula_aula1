@@ -32,6 +32,10 @@ ul{
     margin-top: 50px;
 }
 
+.navbar-mobile{
+    display: none;
+}
+
 a{
     text-decoration: none;
     color: #fff;
@@ -57,5 +61,18 @@ main{
     margin-right: 10px;
 }
 
-
+.botao-flutuante{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #a0c5f0;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 
