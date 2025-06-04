@@ -28,21 +28,12 @@
     color: #fff;
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    position: relative;
     padding-bottom: 0.5rem;
 }
 
-.footer-coluna h4::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 40px;
-    height: 2px;
-    background-color: #1f859e;
-}
 
 .footer-coluna ul {
+    flex-direction: column;
     list-style: none;
 }
 
@@ -52,6 +43,7 @@
 
 .footer-coluna a {
     color: #a9a9a9;
+    flex-direction: column;
     text-decoration: none;
     transition: color 0.3s ease;
 }

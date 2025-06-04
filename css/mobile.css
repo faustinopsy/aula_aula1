@@ -1,0 +1,57 @@
+
+  
+  @media (max-width: 768px) {
+    .navbar-desktop {
+      position: absolute;
+      opacity: 0;
+      width: 100%;
+      flex-direction: column;
+      transition: transform 0.5s ease-in-out;
+      transform: translateY(100%);
+    }
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      right: 0;
+      margin: 10px;
+      z-index: 10;
+    }
+  
+    .menu-toggle:checked ~ .navbar-desktop {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #64a5ef4f;
+      backdrop-filter: blur(10px);
+      transition: all 0.3s ease;
+      opacity: 1;
+      transform: translateY(0); 
+      height: 100vh;
+      z-index: 100;
+      line-height: 1rem;
+    }
+  
+    .menu-toggle:checked ~ .menu-icon .linha-menu-top {
+       transform: translateY(9px) rotate(45deg);
+    }
+  
+    .menu-toggle:checked ~ .menu-icon .linha-menu-bottom {
+      transform: translateY(-9px) rotate(-45deg);
+    }
+  
+    .menu-toggle:checked ~ .menu-icon .linha-menu-center {
+      display: none;
+    }
+  
+    main {
+      display: block;
+      width: 90vw;
+      margin: 10rem auto;
+    }
+
+  }
