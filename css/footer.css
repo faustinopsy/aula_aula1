@@ -1,6 +1,6 @@
 .main-footer {
-    background-color: #1f859e;
-    color: #ffffff;
+    background-color: var(--cor-fundo-primaria);
+    color: var(--cor-texto-primario);
     padding-top: 3rem;
     margin-top: 3rem;
 }
@@ -25,7 +25,7 @@
 }
 
 .footer-coluna h4 {
-    color: #fff;
+    color: var(--cor-texto-primario);
     font-size: 1.2rem;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
@@ -42,14 +42,14 @@
 }
 
 .footer-coluna a {
-    color: #a9a9a9;
+    color: var(--cor-texto-secundario);
     flex-direction: column;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-coluna a:hover {
-    color: #fff;
+    color: var(--cor-texto-primario);
 }
 
 .footer-bottom {
