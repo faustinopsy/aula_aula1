@@ -2,7 +2,7 @@
     position: relative;
     text-align: center;
     padding: 8rem 1rem;
-    background: linear-gradient(transparent, #10977a4b, transparent);
+    background: linear-gradient(transparent, var(--cor-fundo-primaria), transparent);
     border-left:#fff solid 1px;
     border-bottom:#fff solid 3px;
     border-right: transparent;
@@ -15,7 +15,6 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    transform: translateY(-20%);
     width: 100%;
     height: auto;
     z-index: 1;
@@ -31,10 +30,10 @@
 .hero__titulo {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
-    color: #fff;
+    color: var(--cor-texto-primario);
 }
   
 .hero__subtitulo {
     font-size: 1.2rem;
-    color: #fff;
+    color: var(--cor-texto-primario);
 }

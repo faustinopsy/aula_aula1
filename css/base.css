@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #254057;
-    color: #ffffff;
-    cursor: url("cursor/normal.svg"), auto;
+body {
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-fundo-primaria);
+  font-size: var(--tamanho-fonte);
+  margin: 0;
+  cursor: url("cursor/normal.svg"), auto;
 }
 
 main {
