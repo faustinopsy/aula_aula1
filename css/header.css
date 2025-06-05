@@ -33,11 +33,6 @@ a:hover{
     cursor: url("cursor/click.svg"), auto;
 }
 
-main{
-    max-width: 1200px;
-    margin: 140px 20%;
-}
-
 .logo{
     width: 80px;
     animation: fadeIn 1s ease-in forwards;
@@ -72,7 +67,6 @@ main{
     margin-left: -10px;
 }
 
-
 .linha-menu-center::before{
     border-color: transparent #2f4bff #2f4bff transparent;
     border-style: solid;
@@ -85,5 +79,5 @@ main{
 }
 
 .menu-toggle {
-display: none;
+    display: none;
 }
